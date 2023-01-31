@@ -29,4 +29,4 @@ main = run do
   let divlistₙₐₜ = map (λ x → ∣ x ∣
                        ) divlist
   let sumdivlistₙₐₜ = sum divlistₙₐₜ
-  putStrLn ("The answer to advent of code 2019, day 1 is: " ++ show sumdivlistₙₐₜ)
+  putStrLn ("The answer to advent of code 2019, day 1, part 1, is: " ++ show sumdivlistₙₐₜ)
